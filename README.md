@@ -1,3 +1,5 @@
+Forked developed for [Examine.com](https://examine.com)
+
 PHP Sitemap Generator
 =====================
 
