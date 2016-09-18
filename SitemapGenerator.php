@@ -2,6 +2,11 @@
 
 namespace SitemapGenerator;
 
+use \BadMethodCallException;
+use \InvalidArgumentException;
+use \LengthException;
+use \SimpleXMLElement;
+
 /**
  * @category   class
  *
