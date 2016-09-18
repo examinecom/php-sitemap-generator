@@ -4,16 +4,16 @@
     "description": "This class can be used to generate sitemaps and notify updates to search engines.",
     "keywords": ["sitemap", "generator"],
     "license": "GPL",
-    "authors": [
-        {
-            "name": "Paweł Antczak",
-            "email": "pawel@antczak.org"
-        }
-    ],
+    "authors": [{
+        "name": "Paweł Antczak",
+        "email": "pawel@antczak.org"
+    }],
     "require": {
         "php": ">=5.3.3"
     },
     "autoload": {
-        "psr-0": { "SitemapGenerator": "" }
+        "psr-0": {
+            "SitemapGenerator\\": ""
+        }
     }
 }
