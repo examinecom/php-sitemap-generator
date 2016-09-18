@@ -161,7 +161,7 @@ class SitemapNewsGenerator
      * @see http://en.wikipedia.org/wiki/ISO_8601
      * @see http://php.net/manual/en/function.date.php
      */
-    public function addUrl($url, $newsParams)
+    public function addUrl($url, $newsParams = array())
     {
         if ($url == null) {
             throw new InvalidArgumentException('URL is mandatory. At least one argument should be given.');
